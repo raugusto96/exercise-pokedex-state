@@ -1,3 +1,29 @@
+body {
+  background-color: grey;
+}
+
 .App {
   text-align: center;
+}
+
+.next-button{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.type-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.next-button button {
+  padding: 10px;
+  background-color: brown;
+}
+
+.type-buttons button {
+  padding: 10px;
+  background-color: orange;
+  /* border-style: none; */
 }
